@@ -19,10 +19,10 @@ const PRINCIPLES = [
 ]
 
 const STATS = [
-  { num: 'CHF 4.2B', label: 'Assets Under Management' },
-  { num: '67',       label: 'Client Families' },
-  { num: '18',       label: 'Countries' },
-  { num: '37',       label: 'Years of Excellence' },
+  { num: 'CHF 150M+', label: 'Assets Under Management' },
+  { num: '2',         label: 'Client Families' },
+  { num: '18',        label: 'Countries' },
+  { num: '37',        label: 'Years of Excellence' },
 ]
 
 export default function Philosophy() {
