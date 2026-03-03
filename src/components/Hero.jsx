@@ -23,8 +23,8 @@ export default function Hero() {
         <p className="hero-eyebrow">Geneva · London · Singapore — Est. 1987</p>
         <h1 className="hero-wordmark">Monadier</h1>
         <div className="hero-rule" aria-hidden="true" />
-        <p className="hero-descriptor">Asset Management</p>
-        <p className="hero-tagline">Capital. Preserved. Perpetuated.</p>
+        <p className="hero-descriptor">Holding</p>
+        <p className="hero-tagline">Capital. Structured. Compounded.</p>
       </div>
 
       {/* Scroll indicator */}

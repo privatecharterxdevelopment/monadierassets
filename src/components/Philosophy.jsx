@@ -3,26 +3,26 @@ import { useInView } from '../hooks/useInView'
 const PRINCIPLES = [
   {
     num: 'I',
-    title: 'Capital Preservation',
-    text: 'We prioritise the protection of principal above all. Every allocation decision begins with a rigorous assessment of downside risk before any consideration of return.',
+    title: 'Structured Ownership',
+    text: 'We acquire and hold controlling or significant stakes in businesses and real assets. Our holding structure provides stability, alignment and the conditions for compounding over time.',
   },
   {
     num: 'II',
-    title: 'Generational Thinking',
-    text: 'Our investment horizon extends across decades, not quarters. We structure portfolios to serve families across multiple generations, aligning incentives accordingly.',
+    title: 'Permanent Capital',
+    text: 'We operate without redemption pressure or fund lifecycles. Permanent capital allows us to hold positions indefinitely, act counter-cyclically and avoid forced selling.',
   },
   {
     num: 'III',
-    title: 'Concentrated Excellence',
-    text: 'We do not diversify for the sake of diversification. Capital is concentrated in our highest-conviction positions, managed with surgical precision and discipline.',
+    title: 'Operational Conviction',
+    text: 'We do not take passive positions. Where we invest, we engage — providing governance, strategic direction and access to our network to compound value across every holding.',
   },
 ]
 
 const STATS = [
   { num: 'CHF 150M+', label: 'Assets Under Management' },
-  { num: '2',         label: 'Client Families' },
+  { num: '2',         label: 'Portfolio Structures' },
   { num: '18',        label: 'Countries' },
-  { num: '37',        label: 'Years of Excellence' },
+  { num: '37',        label: 'Years of Operation' },
 ]
 
 export default function Philosophy() {
@@ -31,12 +31,12 @@ export default function Philosophy() {
   return (
     <section className="philosophy section" id="philosophy" ref={ref}>
       <div className="container">
-        <p className="section-label">01 — Philosophy</p>
+        <p className="section-label">01 — Approach</p>
 
         <div className={`philosophy-grid reveal${inView ? ' visible' : ''}`}>
           <blockquote className="philosophy-quote">
-            "Capital is not merely accumulated.<br />
-            <em>It is cultivated.</em>"
+            "We do not manage capital.<br />
+            <em>We build with it.</em>"
           </blockquote>
 
           <div className="philosophy-principles">

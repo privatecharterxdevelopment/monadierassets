@@ -3,33 +3,33 @@ import { useInView } from '../hooks/useInView'
 const ASSETS = [
   {
     title: 'Commodities & Natural Resources',
-    desc: 'Strategic allocation across agricultural commodities, precious and industrial metals, and global energy markets. Direct exposure through physical holdings and structured instruments.',
-    tags: ['Agricultural', 'Precious Metals', 'Energy', 'Structured'],
+    desc: 'Direct and structured exposure across agricultural commodities, precious metals, industrial inputs and global energy. Held through physical ownership and purpose-built vehicles.',
+    tags: ['Agricultural', 'Precious Metals', 'Energy', 'Physical'],
   },
   {
     title: 'Global Real Estate',
-    desc: 'Trophy assets, core-plus developments and opportunistic investments across gateway cities and select emerging markets. Active asset management across 14 countries.',
+    desc: 'Controlling positions in trophy assets, mixed-use developments and income-generating property across gateway cities. We own, develop and operate across 14 jurisdictions.',
     tags: ['Residential', 'Commercial', 'Trophy Assets', 'Development'],
   },
   {
-    title: 'Private Equity',
-    desc: 'Direct investments, co-investments and fund positions in growth equity, buyout and late-stage venture strategies. Selective access to premier global managers.',
-    tags: ['Growth Equity', 'Buyout', 'Venture', 'Co-Investment'],
+    title: 'Direct Equity & Acquisitions',
+    desc: 'Majority and significant minority stakes in private businesses. We source proprietary transactions, lead negotiations and retain ownership for years — not quarters.',
+    tags: ['Majority Stakes', 'Buyout', 'Proprietary', 'Control'],
   },
   {
     title: 'Fixed Income & Credit',
-    desc: 'Sovereign and supranational bonds, investment-grade corporate credit, high-yield and bespoke structured credit. Duration-managed for intergenerational portfolios.',
-    tags: ['Sovereign', 'Investment Grade', 'High Yield', 'Structured Credit'],
+    desc: 'Sovereign bonds, investment-grade corporate credit and bespoke structured instruments. Used to optimise the holding structure and manage liquidity across cycles.',
+    tags: ['Sovereign', 'Investment Grade', 'High Yield', 'Structured'],
   },
   {
     title: 'Public Markets',
-    desc: 'Systematic and discretionary equity strategies across developed and emerging markets, enhanced with rigorous macro overlay and active currency management.',
-    tags: ['Global Equity', 'Emerging Markets', 'Systematic', 'Macro'],
+    desc: 'Concentrated, high-conviction equity positions in listed businesses where we have deep sectoral understanding. Systematic overlays applied for risk and currency management.',
+    tags: ['Concentrated Equity', 'Emerging Markets', 'Systematic', 'Macro'],
   },
   {
-    title: 'Infrastructure & Alternatives',
-    desc: 'Long-duration infrastructure, digital assets, art advisory and direct lending. Providing genuine diversification and inflation-linked returns across economic cycles.',
-    tags: ['Infrastructure', 'Digital Assets', 'Art Advisory', 'Lending'],
+    title: 'Infrastructure & Special Situations',
+    desc: 'Long-duration infrastructure ownership, special situations and direct lending. Assets that generate predictable cash flows independent of short-term market sentiment.',
+    tags: ['Infrastructure', 'Special Situations', 'Direct Lending', 'Cash Flow'],
   },
 ]
 
@@ -41,11 +41,11 @@ export default function Assets() {
       <div className="container">
         <div className="assets-header">
           <div>
-            <p className="section-label">02 — Asset Classes</p>
-            <h2 className="section-title">Global Capital<br />Allocation</h2>
+            <p className="section-label">02 — Portfolio</p>
+            <h2 className="section-title">Holdings &<br />Deployment</h2>
           </div>
           <p className="assets-intro">
-            We deploy capital across six core asset classes, each managed by dedicated specialists with decades of sector-specific experience.
+            Monadier deploys capital across six verticals through direct ownership, structured vehicles and proprietary acquisition — not fund intermediation.
           </p>
         </div>
 

@@ -33,10 +33,10 @@ export default function Contact() {
               <em>Conversation</em>
             </h2>
             <p>
-              We work exclusively with single-family offices, institutions and individuals with investable assets exceeding CHF 10 million. All enquiries are handled with absolute discretion.
+              Monadier engages selectively with co-investors, operating partners and counterparties whose interests align with our long-term holding mandate. All correspondence is handled with complete discretion.
             </p>
             <p className="contact-minimum">
-              Minimum investment — CHF 10,000,000
+              Co-investment threshold — CHF 10,000,000
             </p>
           </div>
 
